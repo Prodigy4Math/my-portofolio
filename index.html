@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M RIYADHI RIFQI - Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav__logo">ProdigyMath</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link active-link">Beranda</a></li>
+                    <li class="nav__item"><a href="#profil" class="nav__link">Profil</a></li>
+                    <li class="nav__item"><a href="#proyek" class="nav__link">Proyek</a></li>
+                    <li class="nav__item"><a href="#skill" class="nav__link">Skill</a></li>
+                    <li class="nav__item"><a href="#kontak" class="nav__link">Kontak</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero section" id="hero">
+            <div class="hero__container container grid">
+                <div class="hero__data">
+                    <h1 class="hero__title">Halo, Saya [Nama Lengkap Anda]</h1>
+                    <h2 class="hero__subtitle">Mahasiswa Sistem Informasi yang Mengubah Ide Menjadi Solusi Web Inovatif.</h2>
+                    <a href="#kontak" class="button">Hubungi Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="profil section" id="profil">
+            <div class="section__title">Tentang Saya</div>
+            <div class="profil__container container grid">
+                <div class="profil__data">
+                    <p class="profil__description">
+                        Halo! Saya seorang mahasiswa Sistem Informasi dengan antusiasme tinggi terhadap matematika, teknologi, dan pengembangan sistem. Saya percaya bahwa logika dan kreativitas adalah kunci untuk membangun solusi digital yang efisien dan bermanfaat.
+                    </p>
+                    <p class="profil__description">
+                        Saat ini, saya fokus mendalami pengembangan web, dari *front-end* hingga *back-end*, dan selalu tertantang untuk memecahkan masalah kompleks melalui kode. Saya senang belajar hal baru dan berkolaborasi dalam tim untuk menciptakan karya yang inspiratif.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyek section" id="proyek">
+            <div class="section__title">Portofolio Proyek</div>
+            <div class="proyek__container container grid">
+                
+                <div class="proyek__card fade-in">
+                    <img src="https://via.placeholder.com/400x250/E0F7FA/3498DB?text=SPK+SMART" alt="Proyek SPK SMART" class="proyek__img">
+                    <div class="proyek__data">
+                        <h3 class="proyek__title">SPK Metode SMART</h3>
+                        <p class="proyek__description">Sistem Pendukung Keputusan untuk [Tujuan Proyek, misal: pemilihan beasiswa] menggunakan metode SMART. Dibangun dengan PHP & MySQL.</p>
+                        <a href="#" class="proyek__button">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="proyek__card fade-in">
+                    <img src="https://via.placeholder.com/400x250/E0F7FA/3498DB?text=Kran+Otomatis" alt="Proyek Kran Otomatis" class="proyek__img">
+                    <div class="proyek__data">
+                        <h3 class="proyek__title">Prototipe Kran Otomatis</h3>
+                        <p class="proyek__description">Pengembangan prototipe kran air otomatis berbasis Arduino untuk efisiensi penggunaan air. Menggabungkan minat pada *hardware* dan *software*.</p>
+                        <a href="#" class="proyek__button">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="proyek__card fade-in">
+                    <img src="https://via.placeholder.com/400x250/E0F7FA/3498DB?text=Web+Project" alt="Proyek Web Lain" class="proyek__img">
+                    <div class="proyek__data">
+                        <h3 class="proyek__title">Website [Nama Proyek Web]</h3>
+                        <p class="proyek__description">Proyek web [deskripsi singkat, misal: landing page] yang dibangun menggunakan HTML, CSS, dan JavaScript murni untuk melatih *skill* dasar *front-end*.</p>
+                        <a href="#" class="proyek__button">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="skill section" id="skill">
+            <div class="section__title">Skill & Tools</div>
+            <div class="skill__container container grid">
+                
+                <div class="skill__category fade-in">
+                    <h3 class="skill__title">Hard Skills</h3>
+                    <ul class="skill__list">
+                        <li class="skill__item">HTML5</li>
+                        <li class="skill__item">CSS3 (Flexbox, Grid)</li>
+                        <li class="skill__item">JavaScript (ES6+)</li>
+                        <li class="skill__item">MySQL</li>
+                        <li class="skill__item">Python (Dasar)</li>
+                    </ul>
+                </div>
+
+                <div class="skill__category fade-in">
+                    <h3 class="skill__title">Soft Skills</h3>
+                    <ul class="skill__list">
+                        <li class="skill__item">Pemecahan Masalah (Problem Solving)</li>
+                        <li class="skill__item">Kerja Tim (Teamwork)</li>
+                        <li class="skill__item">Komunikasi</li>
+                        <li class="skill__item">Kemauan Belajar Tinggi</li>
+                        <li class="skill__item">Manajemen Waktu</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="kontak section" id="kontak">
+            <div class="section__title">Hubungi Saya</div>
+            <div class="kontak__container container grid">
+                <div class="kontak__data">
+                    <p class="kontak__description">
+                        Tertarik untuk berdiskusi, berkolaborasi, atau sekadar terhubung?
+                        Jangan ragu untuk menghubungi saya melalui platform di bawah ini.
+                    </p>
+                    <div class="kontak__links">
+                        <a href="mailto:emailanda@gmail.com" target="_blank" class="kontak__link-button">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://wa.me/6281234567890" target="_blank" class="kontak__link-button">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://github.com/usernameanda" target="_blank" class="kontak__link-button">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/usernameanda" target="_blank" class="kontak__link-button">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copy">&copy; 2025 [Nama Lengkap Anda]. Dibuat dengan semangat.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
